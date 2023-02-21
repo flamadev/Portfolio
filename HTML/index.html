@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flavia Mabras | Desarrolladora Web</title>
+
+
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon.ico" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <script defer src="assets/js/app.js"></script>
+
+    <script type="module" defer src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule defer src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</head>
+
+<body>
+    <nav>
+        <div class="logo-container">
+            <a href="#">
+                <img class="logo-img" src="./assets/images/logo.svg" alt="logo página">
+            </a>
+        </div>
+        <ul class="navegation">
+            <li><a href="#aboutme" class="nav-link">Sobre mí</a></li>
+            <li><a href="#projects" class="nav-link">Proyectos</a></li>
+            <li><a href="#skills" class="nav-link">Habilidades</a></li>
+        </ul>
+        <button class="menu-burger" id="menu-burger">
+            <ion-icon class="bars" name="menu-outline"></ion-icon>
+        </button>
+    </nav>
+
+    <section class="hero" id="aboutme">
+        <div class="hero-container">
+            <div class="hero-profile">
+                <div class="hero-img-container">
+                    <img src="assets/images/foto_perfil.jpg" alt="foto de perfíl" loading="lazy" class="hero-img" />
+                </div>
+            </div>
+            <div class="bio">
+                <h1 class="bio-title"> <span style="--special-title: 'Flavia Mabras'">Flavia Mabras</span>
+                </h1>
+                <p class="bio-text">
+                    Desarrolladora frontend<span class="social-contact"><a
+                            href="https://www.linkedin.com/in/flaviamabras/" target="_blank"><img
+                                src="assets/icons/icons8-linkedin-black.svg" alt="Linkedin" loading="lazy"
+                                class="socicon" /></a>
+                        <a href="https://github.com/flamadev" target="_blank"><img src="assets/icons/icons8-github.svg"
+                                alt="Github" class="socicon" /></a>
+                    </span>
+                </p>
+                <a href="mailto:flavia.mabras@gmail.com" type="button" class="btn-grad call-button">Contáctame</a>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="more-about">
+        <h2 class="project-title">SOBRE MÍ</h2>
+        <p>
+            Soy una persona <strong>creativa</strong> y con habilidades para aportar <strong>soluciones</strong> a
+            desafíos. Actualmente me estoy capacitando en programación web, en tecnologías principalmente del frontend
+            como <strong>HTML, CSS, JavaScript, ReactJS</strong> y Node.js. Trabajo en mi formación de manera
+            autodidacta, <strong>creando proyectos</strong> y participando en proyectos de código abierto.
+        </p>
+        <p>Estoy ansiosa por aplicar mis habilidades en el mundo laboral y <strong>seguir aprendiendo</strong> de la
+            mano de un <strong>equipo de trabajo</strong>.</p>
+        <article class="interests">
+            <h2 class="interests-title">AMANTE DE...</h2>
+            <div class="first-set interests-container animate__animated animate__pulse">
+                <img src="assets/icons/pesa.png" alt="" loading="lazy" class="icon icon-card" />
+                <img src="assets/icons/camara.png" alt="" loading="lazy" class="icon icon-card" />
+                <img src="assets/icons/gatito.png" alt="" loading="lazy" class="icon icon-card" />
+                <img src="assets/icons/dibujar.png" alt="" loading="lazy" class="icon icon-card" />
+                <img src="assets/icons/mando.png" alt="" loading="lazy" class="icon icon-card" />
+            </div>
+        </article>
+    </section>
+
+    <div class="web-separator"> </div>
+    <section class="projects" id="projects">
+        <h2 class="project-title">ALGUNOS PROYECTOS</h2>
+        <div class="projects-container">
+            <!-- proyecto 1 weather -->
+            <div class="project-container project-card">
+                <div class="project-pic-container">
+                    <a href="https://weather-finder-l608qvn39-flamadev.vercel.app/" target="_blank">
+                        <img src="assets/images/weather-finder.jpg" alt="weather-finder" loading="lazy"
+                            class="project-pic" />
+                    </a>
+                </div>
+                <h3 class="projects-title">Weather-finder</h3>
+                <div class="project-detail">
+                    <div class="tag" style="--tag-color: 97, 218, 251">
+                        <div class="tag-img"> <img src="./assets/images/icons8-react.svg" /></div>
+                        <p class="tag-description">React</p>
+                    </div>
+                </div>
+                <a href="https://github.com/flamadev/weather-finder" target="_blank" class="project-link"><img
+                        src="./assets/images/github-logo.svg" alt="logo Github"></a>
+
+            </div>
+            <!-- Proyecto 2 Phonebook-->
+            <div class="project-container project-card">
+                <div class="project-pic-container">
+                    <a href="https://phonebook-35do715ba-flamadev.vercel.app/" target="_blank">
+                        <img src="assets/images/phonebook.jpg" alt="phonebook" loading="lazy" class="project-pic" />
+                    </a>
+                </div>
+                <h3 class="projects-title">Phonebook</h3>
+                <div class="tag" style="--tag-color: 97, 218, 251">
+                    <div class="tag-img"> <img src="./assets/images/icons8-react.svg" /></div>
+                    <p class="tag-description">React</p>
+                </div>
+                <a href="https://github.com/flamadev/phonebook" target="_blank" class="project-link"><img
+                        src="./assets/images/github-logo.svg" alt="logo Github"></a>
+            </div>
+
+            <!-- Proyecto 3 Calculadora-->
+
+            <div class="project-container project-card">
+                <div class="project-pic-container">
+                    <a href="https://calculator-5gooc2cdd-flamadev.vercel.app/" target="_blank">
+                        <img src="assets/images/calculadora.jpg" alt="cinema" loading="lazy" class="project-pic" /> </a>
+                </div>
+                <h3 class="projects-title">Calculadora</h3>
+                <div class="tag" style="--tag-color: 97, 218, 251">
+                    <div class="tag-img"> <img src="./assets/images/icons8-react.svg" /></div>
+                    <p class="tag-description">React</p>
+                </div>
+                <a href="https://github.com/flamadev/calculator" target="_blank" class="project-link"><img
+                        src="./assets/images/github-logo.svg" alt="logo Github"></a>
+            </div>
+
+            <!-- Proyecto 4 Cinema -->
+            <div class="project-container project-card">
+                <div class="project-pic-container">
+                    <a href="https://flamadev.github.io/Cinema/" target="_blank">
+                        <img src="assets/images/cinema.jpg" alt="cinema" loading="lazy" class="project-pic" /> </a>
+                </div>
+                <h3 class="projects-title">Cinema</h3>
+                <div class="project-detail">
+                    <div class="tag" style="--tag-color: 240, 101, 41">
+                        <div class="tag-img"> <img src="./assets/images/icons8-html-5.svg" /></div>
+                        <p class="tag-description">HTML</p>
+                    </div>
+                    <div class="tag" style="--tag-color: 60, 153, 220">
+                        <div class="tag-img"> <img src="./assets/images/icons8-css3.svg" /></div>
+                        <p class="tag-description">CSS</p>
+                    </div>
+                    <div class="tag" style="--tag-color: 240, 219, 79">
+                        <div class="tag-img"> <img src="./assets/images/icons8-javascript.svg" /></div>
+                        <p class="tag-description">JavaScript</p>
+                    </div>
+                </div>
+                <a href="https://github.com/flamadev/cinema" target="_blank" class="project-link"><img
+                        src="./assets/images/github-logo.svg" alt="logo Github"></a>
+
+            </div>
+            <!-- Proyecto 5 -->
+            <div class="project-container project-card">
+                <div class="project-pic-container">
+                    <a href="https://flamadev.github.io/ColorBox/" target="_blank">
+                        <img src="assets/images/colorBox.jpg" alt="cinema" loading="lazy" class="project-pic" /> </a>
+                </div>
+                <h3 class="projects-title">ColorBox</h3>
+                <div class="project-detail">
+                    <div class="tag" style="--tag-color: 240, 101, 41">
+                        <div class="tag-img"> <img src="./assets/images/icons8-html-5.svg" /></div>
+                        <p class="tag-description">HTML</p>
+                    </div>
+                    <div class="tag" style="--tag-color: 60, 153, 220">
+                        <div class="tag-img"> <img src="./assets/images/icons8-css3.svg" /></div>
+                        <p class="tag-description">CSS</p>
+                    </div>
+                    <div class="tag" style="--tag-color: 240, 219, 79">
+                        <div class="tag-img"> <img src="./assets/images/icons8-javascript.svg" /></div>
+                        <p class="tag-description">JavaScript</p>
+                    </div>
+                </div>
+                <a href="https://github.com/flamadev/ColorBox" target="_blank" class="project-link"><img
+                        src="./assets/images/github-logo.svg" alt="logo Github"></a>
+            </div>
+
+
+        </div>
+    </section>
+
+    <div class="web-separator-down"> </div>
+
+    <section class="skills" id="skills">
+        <article class="skills-container">
+            <h2 class="skill-header">SKILLS</h2>
+            <div class="first-set animate__animated animate__pulse">
+                <img src="assets/icons/icons8-html-5.svg" alt="" loading="lazy" class="icon icon-card" />
+                <img src="assets/icons/icons8-css3.svg" alt="" loading="lazy" class="icon icon-card" />
+                <img src="assets/icons/icons8-javascript.svg" alt="" loading="lazy" class="icon icon-card" />
+            </div>
+            <div class="second-set animate__animated animate__pulse">
+                <img src="assets/icons/icons8-react-native.svg" alt="" loading="lazy" class="icon icon-card" />
+                <img src="assets/icons/icons8-nodejs.svg" alt="" loading="lazy" class="icon icon-card" />
+                <img src="assets/icons/git.svg" alt="" loading="lazy" class="icon icon-card" />
+            </div>
+        </article>
+        <article class="soft-skills-container">
+            <h2 class="skill-header">SOFT SKILLS</h2>
+            <div class="icon-card skill-card">
+                <img src="assets/icons/creatividad.png" alt="" loading="lazy" />
+                <p>Creativa</p>
+            </div>
+            <div class="icon-card skill-card">
+                <img src="assets/icons/empathy.png" alt="" loading="lazy" />
+                <p>Empática</p>
+            </div>
+
+            <div class="icon-card skill-card">
+                <img src="assets/icons/resolucion.png" alt="" loading="lazy" />
+                <p>Resolutiva</p>
+            </div>
+            <div class="icon-card skill-card">
+                <img src="assets/icons/colaborar.png" alt="" loading="lazy" />
+                <p> Trabajo en equipo</p>
+            </div>
+            <div class="icon-card skill-card">
+                <img src="assets/icons/responsabilidad.png" alt="" loading="lazy" />
+                <p> Responsable</p>
+            </div>
+
+        </article>
+    </section>
+
+
+    <i class="swipe-up animate__animated animate__fadeIn hidden" id="swipe-up">
+        <img src="./assets/images/arrow_circle_up.png" alt="arrow-up">
+    </i>
+
+    <footer>
+        <div class="social">
+
+            <a href="https://www.linkedin.com/in/flaviamabras/" target="_blank"><img
+                    src="assets/icons/icons8-linkedin.svg" alt="Linkedin" loading="lazy"
+                    class="socicon animate__pulse" /></a>
+            <a href="https://github.com/flamadev" target="_blank"><img src="assets/icons/icons8-github.svg" alt="Github"
+                    class="socicon animate__pulse" /></a>
+
+        </div>
+    </footer>
+
+
+
+
+</body>
+
+</html>
