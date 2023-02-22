@@ -462,6 +462,10 @@ footer a {
   box-shadow: 0 1px 5px var(--primary-shadow);
   padding: 20px;
   margin: 10px;
+  transition: transform 0.2s ease-out;
+}
+.project-card:hover {
+  transform: scale(105%);
 }
 
 @media screen and (max-width: 720px) {
